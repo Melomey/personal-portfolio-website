@@ -12,9 +12,7 @@ const Footer = () => {
   return (
     <div className="bg-indigo-100 py-28 md:px-12 px-4">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-20">
-        <Link href="/">
-          <img src={logo} alt="" className="h-10" />
-        </Link>
+    
         <div className="flex flex-col md:flex-row md:items-center gap-4 flex-wrap">
           <Link
             href="#"
