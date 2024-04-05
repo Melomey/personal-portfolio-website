@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
 import {
   FaFacebookF,
@@ -11,28 +12,49 @@ const Footer = () => {
   return (
     <div className="bg-indigo-100 py-28 md:px-12 px-4">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-20">
-        <a href="/">
+        <Link href="/">
           <img src={logo} alt="" className="h-10" />
-        </a>
+        </Link>
         <div className="flex flex-col md:flex-row md:items-center gap-4 flex-wrap">
-          <a
+          <Link
             href="#"
             className="block text-primary hover:text-gray-400 py-2 px-4"
           >
             Home
-          </a>
-          <a href="#" className="block hover:text-gray-400 py-2 px-4">
+          </Link>
+          <Link  activeClass="active"
+              smooth={true}
+              spy={true}
+              offset={-100}
+              to="skills"
+              className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
             Skills
-          </a>
-          <a href="#" className="block  hover:text-gray-400 py-2 px-4">
+          </Link>
+          <Link  activeClass="active"
+              smooth={true}
+              spy={true}
+              offset={-100}
+              to="about"
+              className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
             About
-          </a>
-          <a href="#" className="block  hover:text-gray-400 py-2 px-4">
+          </Link>
+          <Link  activeClass="active"
+              smooth={true}
+              spy={true}
+              offset={-100}
+              to="portfolio"
+              className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
             Portfolio
-          </a>
-          <a href="#" className="block  hover:text-gray-400 py-2 px-4">
-            Blog
-          </a>
+          </Link>
+          <Link  activeClass="active"
+              smooth={true}
+              spy={true}
+              offset={-100}
+              to="blog"
+              className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
+  Blog
+</Link>
+
         </div>
         <div className="flex items-center gap-4 ml-4">
           <a

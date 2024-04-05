@@ -11,10 +11,10 @@ const About = () => {
             <img src={proPic} alt="" className="w-full sm:w-11/12" />
           </div>
           <div className="sm:w-1/2">
-            <p className="text-xl text-headingcolor font-semibold mb-5">
+            <p className="text-xl text-black font-semibold mb-5">
               Get to know me
             </p>
-            <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
+            <h2 className="md:text-5xl text-4xl text-black font-bold">
               My Experience
             </h2>
             <p className="mt-8 md:pr-8 mb-8">

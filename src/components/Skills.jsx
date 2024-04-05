@@ -46,7 +46,7 @@ const Skills = ({ limitToFour }) => {
   const displaySkills = limitToFour ? skills.slice(0, 4) : skills;
 
   return (
-    <section className="py-16 bg-white text-center ">
+    <section className="py-16 bg-white text-center " id='skills'>
       {" "}
       {/* Added mt-20 for top margin */}
       <div className="container mx-auto">

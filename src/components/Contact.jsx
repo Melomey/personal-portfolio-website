@@ -1,11 +1,11 @@
 const Contact = () => {
   return (
-    <div className="lg:px-12 px-4">
+    <div className="lg:px-12 px-4" id='contact'>
       <div className="mb-20 text-center">
-        <p className="text-xl text-headingcolor font-semibold mb-5">
+        <p className="text-xl text-black font-semibold mb-5">
           Get In Touch
         </p>
-        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
+        <h2 className="md:text-5xl text-4xl text-black font-bold">
           Contact me
         </h2>
       </div>
@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="sm:w-1/2 w-full">
               <label
                 htmlFor="firstname"
-                className="text-base text-headingcolor w-full"
+                className="text-base text-black w-full"
               >
                 First name
               </label>
@@ -29,7 +29,7 @@ const Contact = () => {
             <div className="sm:w-1/2 w-full">
               <label
                 htmlFor="lastname"
-                className="text-base text-headingcolor w-full"
+                className="text-base text-black w-full"
               >
                 Last name
               </label>
@@ -45,7 +45,7 @@ const Contact = () => {
             <div className="sm:w-1/2 w-full">
               <label
                 htmlFor="firstname"
-                className="text-base text-headingcolor w-full"
+                className="text-base text-black w-full"
               >
                 Email
               </label>
@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="sm:w-1/2 w-full">
               <label
                 htmlFor="lastname"
-                className="text-base text-headingcolor w-full"
+                className="text-base text-black w-full"
               >
                 Phone number
               </label>
@@ -74,7 +74,7 @@ const Contact = () => {
           <div className="w-full mb-8">
             <label
               htmlFor="firstname"
-              className="text-base text-headingcolor w-full"
+              className="text-base text-black w-full"
             >
               Choose a topic
             </label>
@@ -93,7 +93,7 @@ const Contact = () => {
           <div className="w-full mb-8">
             <label
               htmlFor="message"
-              className="text-base text-headingcolor w-full"
+              className="text-base text-black w-full"
             >
               Message
             </label>
@@ -111,7 +111,7 @@ const Contact = () => {
             <input type="checkbox" name="agree" id="agree" />
             <label
               htmlFor="message"
-              className="text-base text-headingcolor w-full ml-3"
+              className="text-base text-black w-full ml-3"
             >
               I accept the terms
             </label>

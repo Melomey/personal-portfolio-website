@@ -9,10 +9,10 @@ const Home = () => {
         </div>
         {/* left side */}
         <div className="md:w-1/2 w-full mt-5">
-          <p className="text-xl text-headingcolor font-semibold mb-5">
+          <p className="text-xl text-black font-semibold mb-5">
             Hi, I am Sam
           </p>
-          <h1 className="md:text-6xl text-4xl font-bold text-headingcolor leading-snug md:leading-[76px]  mb-5">
+          <h1 className="md:text-6xl text-4xl font-bold text-black leading-snug md:leading-[76px]  mb-5">
             I am a <span className="text-primary">FRONTEND </span> developer.
           </h1>
           <p className="text-2xl text-body leading-9 mb-8">

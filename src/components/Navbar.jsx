@@ -93,12 +93,19 @@ const Navbar = () => {
           </div>
 
           {/* contact me btn */}
+          <Link
+          activeClass="active"
+          smooth={true}
+          spy={true}
+          offset={-100}
+          to="contact"
+          className="block  hover:text-gray-400 py-2 px-4 cursor-pointer">
           <div className="lg:block hidden">
             <button className="px-4 py-2 bg-transparent border border-indigo-500 text-indigo-700 rounded hover:bg-primary hover:text-white transition-all duration-300">
               Contact Me
             </button>
           </div>
-
+          </Link>
           {/* btn for small devices */}
           <button onClick={toggleMenu} className="lg:hidden text-body text-3xl">
             <HiMenu />
