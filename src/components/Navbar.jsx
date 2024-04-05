@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo.png";
+
 import { HiMenu } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -34,8 +34,9 @@ const Navbar = () => {
         }`}
       >
         <div className="flex items-center justify-between">
-          <div className="text-white font-bold text-lg cursor-pointer">
-            <img src={logo} alt="" className="h-10" />
+          <div className="text-black font-bold text-lg cursor-pointer">
+           
+            <h1>Samuel Melomey</h1>
           </div>
 
           {/* for larger device */}
