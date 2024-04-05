@@ -21,9 +21,8 @@ const About = () => {
               My journey has been marked by a steadfast commitment to pushing
               boundaries and embracing emerging technologies, particularly
               within the React ecosystem. Proficient in a wide array of front
-              and back-end technologies, including React, Redux and React
-              Router, I thrive on the dynamic interplay between creativity and
-              functionality.
+              and back-end technologies. I thrive on the dynamic interplay between
+               creativity and functionality.
             </p>
             <a
               href={CV}
