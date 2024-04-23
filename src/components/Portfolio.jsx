@@ -85,10 +85,10 @@ const projects = [
     image:
       "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*wsGPomavMyR_wB2qGcnAaw.png",
     title: "Badak Portal",
-    category: "REACT JS | NODE JS | MONGODB",
+    category: "REACT JS | NODE JS | MONGODB | EXPRESS",
     description:
       "Welcome to badak portal , where students verify their certificate type for visa acceptance.",
-    link: "/project/6",
+    link: "https://badak-react-app.vercel.app/",
   },
 ];
 
