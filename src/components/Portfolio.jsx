@@ -81,6 +81,15 @@ const projects = [
       "Welcome to our domain. We bring your ideas to live with our exceptional skills.",
     link: "/project/6",
   },
+  {
+    image:
+      "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*wsGPomavMyR_wB2qGcnAaw.png",
+    title: "Badak Portal",
+    category: "REACT JS | NODE JS | MONGODB",
+    description:
+      "Welcome to badak portal , where students verify their certificate type for visa acceptance.",
+    link: "/project/6",
+  },
 ];
 
 export default Portfolio;
