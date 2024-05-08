@@ -20,8 +20,7 @@ const About = () => {
             <p className="mt-8 md:pr-8 mb-8">
               My journey has been marked by a steadfast commitment to pushing
               boundaries and embracing emerging technologies, particularly
-              within the React ecosystem. Proficient in a wide array of front
-              and back-end technologies. I thrive on the dynamic interplay between
+              within the React ecosystem. I thrive on the dynamic interplay between
                creativity and functionality.
             </p>
             <a
