@@ -6,6 +6,7 @@ import {
   faCss3Alt,
   faReact,
   faNode,
+  faCss3,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Skills = ({ limitToFour }) => {
@@ -35,10 +36,10 @@ const Skills = ({ limitToFour }) => {
         "A JavaScript library for building user interfaces, especially for single-page applications.",
     },
     {
-      title: "Node.js",
-      icon: faNode,
+      title: "Tailwind CSS",
+      icon: faCss3,
       description:
-        "a JavaScript runtime that enables server-side JavaScript execution, allowing developers to build scalable and high-performance network applications.",
+        "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
     },
   ];
 

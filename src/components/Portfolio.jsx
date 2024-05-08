@@ -58,11 +58,11 @@ const projects = [
   },
   {
     image:
-      "https://plus.unsplash.com/premium_photo-1661854008793-8ce54b2e622b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Topaz Agro Commerce",
-    category: "HTML | CSS | JAVASCRIPT",
-    description: "Discovering hidden gems in the heart of the city.",
-    link: "https://topaz-melomey.vercel.app/#about-landing",
+      "https://unsplash.com/photos/man-in-green-jacket-riding-bicycle-on-road-during-daytime-1MFqJzNUwOM",
+    title: "Shop For Me App",
+    category: "REACT | TAILWIND CSS",
+    description: "Get your errands done effortlessly",
+    link: "https://shop-for-me-app.vercel.app/",
   },
   {
     image:
