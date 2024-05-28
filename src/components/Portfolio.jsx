@@ -72,15 +72,15 @@ const projects = [
     description: "Explore the world of movies at the comfort of your home.",
     link: "https://topaz-movie.vercel.app/movie",
   },
-  {
-    image:
-      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Team Portfolio",
-    category: "REACT JS | NODE JS | MONGODB",
-    description:
-      "Welcome to our domain. We bring your ideas to live with our exceptional skills.",
-    link: "/project/6",
-  },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   title: "Team Portfolio",
+  //   category: "REACT JS | NODE JS | MONGODB",
+  //   description:
+  //     "Welcome to our domain. We bring your ideas to live with our exceptional skills.",
+  //   link: "/project/6",
+  // },
   {
     image:
       "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*wsGPomavMyR_wB2qGcnAaw.png",
