@@ -23,13 +23,13 @@ const About = () => {
               within the React ecosystem. I thrive on the dynamic interplay between
                creativity and functionality.
             </p>
-            <a
+            {/* <a
               href={CV}
               download="Melomey_Samuel_CV.pdf"
               className="px-4 py-2 bg-transparent border border-indigo-500 text-indigo-700 rounded hover:bg-primary hover:text-white transition-all duration-300"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
